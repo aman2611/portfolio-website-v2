@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div className="flex fixed left-10 mt-20 w-1/3 pr-20 border-r-[1px] border-gray-300 items-center">
+    <div className="flex fixed left-10 mt-20 w-1/3 pr-20 border-r-[1px] border-black dark:border-gray-300 items-center">
       <div className="flex flex-col gap-4 ">
         <p className="text-primary ">Hi! I am </p>
         <div className="flex flex-col gap-0">
-          <h1 className="text-5xl text-white dark:text-black font-bold uppercase mt-6">Aman</h1>
+          <h1 className="text-5xl text-black dark:text-white font-bold uppercase mt-6">Aman</h1>
           <h2 className="text-7xl font-bold uppercase text-primary hover:scale-110 tap:scale-90">Prakash.</h2>
         </div>
         <h3 className="text-[20px]  font-bold text-primary">Software Engineer</h3>
@@ -20,7 +20,7 @@ export default function Sidebar() {
         </p>
           <Link
             href="mailto:amanprakash2611@gmail.com"
-            className=" border-2 border-primary text-white dark:text-black px-6 py-2 hover:scale-110 max-w-fit"
+            className=" border-2 border-primary text-black dark:text-white px-6 py-2 hover:scale-110 max-w-fit"
           >
             Get in touch!
           </Link>

@@ -4,7 +4,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="min-h-[70vh] justify-center pt-14 pb-40">
-      <h1 className="text-5xl font-bold uppercase pb-4 text-white dark:text-black">
+      <h1 className="text-5xl font-bold uppercase pb-4 text-black dark:text-white">
         <span className="text-6xl ">W</span>hat I do.
       </h1>
       <p className="py-6">
