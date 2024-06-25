@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div className="flex fixed left-10 mt-20 w-1/3 pr-20 border-r-[1px] border-black dark:border-gray-300 items-center">
+    <div className="flex md:fixed left-10 mt-20 w-1/3 pr-20 md:border-r-[1px] border-black dark:border-gray-300 items-center">
       <div className="flex flex-col gap-4 ">
         <p className="text-primary ">Hi! I am </p>
         <div className="flex flex-col gap-0">

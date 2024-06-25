@@ -5,12 +5,11 @@ export default function NavSidebar() {
   return (
     <div className="fixed right-[-70px] top-0 h-full flex flex-col justify-between items-start ml-4 text-black dark:text-white">
       <ul className="flex flex-col gap-4 mt-10 ml-6">
-        <li className="border-b-2 border-transparent hover:border-primary">About</li>
-        <li className="border-b-2 border-transparent hover:border-primary">Experience</li>
-        <li className="border-b-2 border-transparent hover:border-primary">Works</li>
-        <li className="border-b-2 border-transparent hover:border-primary">Contact</li>
-        <li className="">
-          <ThemeSwitch />
+      <li><a href="#about" className="mx-2 px-2 border-b-2 border-transparent hover:border-primary">About</a></li>
+        <li><a href="#works" className="mx-2 px-2 border-b-2 border-transparent hover:border-primary">Works</a></li>
+        <li><a href="#contact" className="mx-2 px-2 border-b-2 border-transparent hover:border-primary">Contact</a></li>
+        <li className="mx-2 px-2 cursor-pointer" >
+          <ThemeSwitch/>
         </li>
       </ul>
       <div className="flex justify-center items-center w-full mb-4">
