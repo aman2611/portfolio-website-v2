@@ -43,12 +43,12 @@ export default function Portfolio({ children }) {
             <div className="col-span-4 p-14">
               <Sidebar />
             </div>
-            <div className="flex col-span-7 ml-10">
+            <div className="flex col-span-7 ml-10 bg-white text-black dark:bg-black dark:text-slate-400">
               <div className="w-11/12 gap-2">
                 {children}
               </div>
               {showNavSidebar && (
-                <div className="col-span-1"> 
+                <div className="col-span-1 bg-white text-black dark:bg-black dark:text-slate-400"> 
                   <NavSidebar />
                 </div>
               )}
