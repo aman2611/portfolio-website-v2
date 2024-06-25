@@ -3,7 +3,7 @@ import ThemeSwitch from "../config/ThemeSwitch";
 
 export default function NavSidebar() {
   return (
-    <div className="fixed right-[-70px] top-0 h-full flex flex-col justify-between items-start ml-4 text-white">
+    <div className="fixed right-[-70px] top-0 h-full flex flex-col justify-between items-start ml-4 text-white dark:text-black">
       <ul className="flex flex-col gap-4 mt-10 ml-6">
         <li className="border-b-2 border-transparent hover:border-primary">About</li>
         <li className="border-b-2 border-transparent hover:border-primary">Experience</li>

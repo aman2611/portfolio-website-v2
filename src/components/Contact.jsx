@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col p-4 gap-20 mt-20">
       <div className="flex flex-col gap-4">
-      <h3 className="text-4xl uppercase font-bold items-center text-white">
+      <h3 className="text-4xl uppercase font-bold items-center text-white dark:text-black">
         <span className="text-5xl">S</span>ay Hi
         <span className="text-5xl">!</span>. 
         <span className="text-primary text-2xl hover:animate-bounce "> (⁀ᗢ⁀)</span>

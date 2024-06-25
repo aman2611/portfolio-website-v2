@@ -6,7 +6,7 @@ function Projects() {
 
   return (
     <div className="flex flex-col mx-auto px-4 py-8">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 uppercase text-white"><span className="text-5xl">S</span>ome of my works.</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-6 uppercase text-white dark:text-black"><span className="text-5xl">S</span>ome of my works.</h1>
       <p className="text-lg mb-8">
         Check out some of the projects I worked on.
       </p>

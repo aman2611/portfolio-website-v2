@@ -4,7 +4,7 @@ import ThemeSwitch from '../config/ThemeSwitch';
 export default function Navbar() {
   
   return (
-    <div className="flex justify-between w-full py-4 px-10 items-center text-white">
+    <div className="flex justify-between w-full py-4 px-10 items-center text-white dark:text-black">
       <div>
         <p className="font-bold text-2xl">LOGO</p>
       </div>

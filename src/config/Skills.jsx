@@ -24,7 +24,7 @@ export default function Skills() {
   };
 
   return (
-    <div className="flex flex-col gap-4 w-full text-white">
+    <div className="flex flex-col gap-4 w-full text-white dark:text-black">
       <div className="flex justify-between w-full">
         <ul className="flex flex-col gap-2 py-2">
           <li className="flex gap-2 items-center">
