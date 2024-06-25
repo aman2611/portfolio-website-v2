@@ -8,10 +8,8 @@ export default function About() {
         <span className="text-6xl ">W</span>hat I do.
       </h1>
       <p className="py-6">
-        I`ve been coding professionally for 8 years now and currently working as
-        a Software Engineer that focuses on architecture, APIs, nitty-gritty
-        business logics and even front end integration stuff now, how time
-        flies!
+        I`ve been coding professionally for more than 1 year now and currently working as
+        a Software Engineer that focuses on Frontend Development and even back end integration stuff now like making APIs and nitty gritty business logics, how time flies!
       </p>
       <p className="py-2">Here are few technologies that are cup of my tea .</p>
       <div className="flex justify-between py-4 pr-36">

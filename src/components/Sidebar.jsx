@@ -1,5 +1,5 @@
 import React from "react";
-import Socials from "@/config/socials";
+import Socials from "@/config/Socials";
 import Link from "next/link";
 
 export default function Sidebar() {
@@ -15,7 +15,7 @@ export default function Sidebar() {
         <p className="text-sm">
           Hey! How nice of you to look at my personal site,
           <span className="text-primary">Thank you!</span>
-          <br />I am software engineer that specializes at backend apis, front
+          <br />I am software engineer that specializes at frontend development, apis, back
           end integration, recently found myself studying UX too.
         </p>
           <Link
