@@ -14,7 +14,9 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiAngular 
 } from "react-icons/si";
+import FaAws  from "react-icocns/fa";
 
 export default function Skills() {
   const [showMore, setShowMore] = useState(false);
@@ -36,8 +38,8 @@ export default function Skills() {
             <span>Javascript (ES6+)</span>
           </li>
           <li className="flex gap-2 items-center">
-            <SiHtml5 className="text-xl text-primary" />
-            <span>HTML</span>
+            <SiAngular className="text-xl text-primary" />
+            <span>Angular</span>
           </li>
           <li className="flex gap-2 items-center">
             <SiTailwindcss className="text-xl text-primary" />
@@ -45,6 +47,10 @@ export default function Skills() {
           </li>
           {showMore && (
             <>
+               <li className="flex gap-2 items-center">
+            <SiHtml5 className="text-xl text-primary" />
+            <span>HTML</span>
+          </li>
               <li className="flex gap-2 items-center">
                 <SiExpress className="text-xl text-primary" />
                 <span>Express</span>
@@ -66,15 +72,19 @@ export default function Skills() {
             <span>Typescript</span>
           </li>
           <li className="flex gap-2 items-center">
-            <SiCss3 className="text-xl text-primary" />
-            <span>CSS</span>
-          </li>
-          <li className="flex gap-2 items-center">
             <SiNodedotjs className="text-xl text-primary" />
             <span>NodeJS</span>
           </li>
+          <li className="flex gap-2 items-center">
+            <FaAws  className="text-xl text-primary" />
+            <span>AWS</span>
+          </li>
           {showMore && (
             <>
+               <li className="flex gap-2 items-center">
+            <SiCss3 className="text-xl text-primary" />
+            <span>CSS</span>
+          </li>
               <li className="flex gap-2 items-center">
                 <SiMongodb className="text-xl text-primary" />
                 <span>MongoDB</span>
